@@ -20,3 +20,5 @@ predictor_var <- full_join(drought_data1, drought_data2,
             `SPEI-6_new` = sum(`SPEI-6`, na.rm = T),
             `SPEI-12_new` = sum(`SPEI-12`, na.rm = T))
 
+linear_reg <- lm()
+
